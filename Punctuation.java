@@ -50,7 +50,9 @@ public class Punctuation { // class header punctuation
 	
 	public void printWords(String puncWords) // printWords method header that accepts one argument 
 	{
+		System.out.println("\n\n\n");
 		System.out.println(puncWords); // print the inputted words
+		System.out.println("\n\n\n");
 	}
 	public String getPunctuationWords(String text) // get punctuation words method header accepts a string input
 	{
